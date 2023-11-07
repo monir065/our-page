@@ -4,11 +4,25 @@
         font-size: 18px;
     }
     .c-text{
-        font-size: 12px;
+        font-size: 8px;
     }
     .s-blog{
         margin: 0 16px;
       }
+
+      .back{
+        height: 50vh;
+        
+    }
+    .card-title{
+        font-size: 12px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .cd-btn{
+        font-size: 8px;
+    }
     
  }
 
@@ -20,15 +34,42 @@
     .s-blog{
         margin: 0 16px;
       }
+
+      .back{
+        height: 50vh;
+         }
+         .back .btn{
+            top: 40%;
+            left: 25%;
+             }
+
+             .card-title{
+                font-size: 14px;
+            }
+            .card-text{
+                font-size: 12px;
+            }
+            .cd-btn{
+                font-size: 10px;
+            }
+    /* butt
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-  .s-blog{
-    margin: 0 16px;
-  }
+  /* .s-blog{
+    margin: 0;
+  } */
+  .card-title{
+    font-size: 14px;
+}
+.card-text{
+    font-size: 12px;
+}
+.cd-btn{
+    font-size: 10px;
+}
  }
-
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .c-text{
